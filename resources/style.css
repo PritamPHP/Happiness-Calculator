@@ -2012,8 +2012,125 @@
 }
 /* end footer */
 
-/* font size changes
-
+@media (max-width: 380px) {
+  .s10-left-bottom-line {
+    position: absolute;
+    right: 4%;
+    height: 61%;
+    bottom: 17%;
+  }
+}
+@media (max-width: 475px) {
+  .s10-left-bottom-line {
+    position: absolute;
+    right: 0%;
+    bottom: 14%;
+    width: 102%;
+  }
+}
+/* font size changes */
 @media (min-width: 1920px) and (max-width: 2560px) {
-  
-} */
+  .p-one-s1 {
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .p-two-s1 {
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+  .available-on-s1 {
+    font-size: 19px;
+    font-weight: 700;
+  }
+
+  .p-s2 {
+    color: var(--s2-h-p);
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .subscriptions-plan-2 {
+    font-weight: 700;
+  }
+  .per-month-2 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .plan-p-s2 {
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .p-s3 {
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .s4-part-1-h-1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .s4-part-1-p-1 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .s4-part-4-h-4 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .s4-part-4-p-4 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .s5-p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .s5-h-p {
+    font-size: 19px;
+    font-weight: 300;
+  }
+  .s5-h-p-2 {
+    font-size: 19px;
+    font-weight: 300;
+  }
+  .s5-h-p-3 {
+    font-size: 19px;
+    font-weight: 300;
+  }
+  .s5-01 {
+    height: 35px;
+  }
+  .s5-02 {
+    height: 35px;
+  }
+  .s5-03 {
+    height: 35px;
+  }
+  .s6-p {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  .s7-p {
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .s7-card-one-p {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .s7-card-two-p {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .p-one-s10 {
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .available-on-s10 {
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .footer-part-one-text {
+    font-weight: 400;
+  }
+}
